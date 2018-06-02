@@ -3,7 +3,7 @@ with open("Prob05.in.txt") as x:
 	for i in range(0, cases):
 		num = int(x.readline().replace("\n", ""))
 		temp = num
-		count = 0
+		count = 1
 		while True:
 			if temp == 1:
 				break
